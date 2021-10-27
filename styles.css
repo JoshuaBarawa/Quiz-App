@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Poppins&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: #3886b3;
+    display: flex;
+    justify-content: center;
+}
+
+#intro{
+   font-size: 40px;
+   color:#ffffff;
+   text-align: center;
+}
+
+#start-btn{
+    font-size: 40px;
+    cursor: pointer;
+    border: none;
+    border-radius: 35px;
+    color: rgb(28, 117, 145);
+    padding: 7px 50px;
+}
+
+.active{
+    background-color:rgb(255, 255, 255);
+}
+
+#rules{
+    background-color:rgb(255, 255, 255);
+    max-width: 500px;
+    max-height:500px;
+    border-radius:10px;
+    font-size: 18px;
+    padding: 10px 20px;
+     display:none;
+}
+
+#exi-con{
+    display: flex;
+    justify-content: space-around;
+    padding-top:30px;
+  
+}
+
+#exi-con #exit{
+    font-size: 20px;
+     
+    padding: 5px 30px;
+    border: none;
+    border-radius:15px;
+    font-size: 20px;
+    cursor: pointer;
+    color:red;
+}
+
+#exi-con #continue{
+  
+   padding: 5px 30px;
+   border: none;
+   border-radius:15px;
+   font-size: 20px;
+   cursor: pointer;
+   color:rgb(20, 20, 202);
+}
+
+#hero{
+
+    background-color:rgb(238, 238, 238);
+    min-width: 300px;
+    width: 600px;
+    height:450px;
+    max-height:800px;
+    border-radius:10px;
+    display: none;
+}
+
+
+
+#quiz p {
+    font-size:30px;
+    padding-left: 20px;
+}
+
+.options{
+    display:flex;
+    flex-direction:column;
+}
+
+#quiz .options p{
+    margin: 10px 20px;
+    font-size:20px;
+    padding: 10px 20px;
+    background-color:rgb(207, 207, 207);
+    border-radius:25px;
+    cursor: pointer;
+    border: none;
+}
+
+ #next{
+   background-color: rgb(61, 116, 219);
+   padding: 5px 30px;
+   border: none;
+   border-radius:15px;
+   font-size: 18px;
+   cursor: pointer;
+   color: #fff;
+   position: relative;
+   margin-left: 20px;
+}
+
+@media only screen and (max-width: 450px){
+#ques, .options p{
+   font-size:18px !important;
+    }
+
+    #start-btn{
+        font-size: 20px;
+    
+    }
+}

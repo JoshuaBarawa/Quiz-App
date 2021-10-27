@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+
+    <link href="styles.css" rel="stylesheet"/>
+    <script src=" https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   
+</head>
+<body>
+
+    <div id="intro">
+     <p>Welcome to my Quiz App</p>
+    <button id="start-btn">Start Quiz</button>
+</div>
+
+    <div id="rules">
+        <span>1. Once you select your answer, it can't be undone</span><br/>
+        <span>2. You can't exit from the quiz while you're playing</span><br/>
+        <span>3. You will get points based on your correct answers</span><br/>
+        <span>4. Each question contains 1 mark</span><br/>
+
+        <div id="exi-con">
+            <button id="exit">Exit</button>
+            <button id="continue">Continue</button>
+        </div>
+
+    </div>
+
+    <div id="hero">
+
+    <div id="quiz">
+
+        <p id="ques"></p>
+        <div class="options">
+            <p id="option1"></p>
+            <p id="option2"></p>
+            <p id="option3"></p>
+            <p id="option4"></p>
+            </div>
+    </div>
+
+    <button id="next">Next</button>
+</div>
+
+
+    <script src="js/index.js"></script>
+</body>
+</html>
